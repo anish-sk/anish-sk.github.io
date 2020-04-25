@@ -1,0 +1,33 @@
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.s1 {
+    @extend %message;
+    background-color: wheat;
+}
+
+.s2 {
+    @extend %message;
+    background-color: greenyellow;
+}
+
+.s3{
+    @extend %message;
+    background-color: lavender;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  // background-color: red;
+  color: yellow;
+  text-align: center;
+}

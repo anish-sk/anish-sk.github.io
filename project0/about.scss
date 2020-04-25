@@ -1,0 +1,29 @@
+div {
+  font-size: 18px;
+
+  h3 {
+      color: brown;
+  }
+
+  ul {
+      color: darkmagenta;
+  }
+}
+h1{
+  text-align: center;
+}
+
+.row > div {
+    padding: 20px;
+    background-color: cyan;
+    border: 2px solid black;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  // background-color: red;
+  color: yellow;
+  text-align: center;
+}
