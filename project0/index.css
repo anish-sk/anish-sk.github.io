@@ -108,7 +108,11 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
+@media(max-width: 500px){
+  .masthead-nav{
+    float: inline-end;
+  }
+}
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
